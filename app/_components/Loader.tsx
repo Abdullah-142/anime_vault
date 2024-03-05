@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { getanime } from "../action";
-import { Props } from "./AnimeCard";
 export type AnimeCardProps = JSX.Element;
 let page = 2;
 export default function Loader() {

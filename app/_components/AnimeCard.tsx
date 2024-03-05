@@ -1,7 +1,5 @@
+import { FileStack, Star } from "lucide-react";
 import Image from "next/image";
-import React from "react";
-import { FileStack } from "lucide-react";
-import { Star } from "lucide-react";
 import { MotionDiv } from "./MotionDiv";
 export interface Anime {
   id: string;

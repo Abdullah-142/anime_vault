@@ -1,7 +1,6 @@
 "use server";
 
-import AnimeCard, { Anime, Props } from "./_components/AnimeCard";
-import { data } from "./_data";
+import AnimeCard, { Anime } from "./_components/AnimeCard";
 
 export const getanime = async (page: number) => {
   const response = await fetch(
