@@ -1,3 +1,4 @@
+"use server";
 
 import AnimeCard, { Anime } from "./_components/AnimeCard";
 
